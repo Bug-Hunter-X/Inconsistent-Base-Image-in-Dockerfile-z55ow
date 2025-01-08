@@ -1,0 +1,1 @@
+This repository demonstrates a common Dockerfile error and its solution. The initial Dockerfile uses `ubuntu:latest`, which is problematic because it can change unexpectedly between builds. This leads to inconsistencies and build failures. The solution uses a specific version tag to ensure reproducibility.
